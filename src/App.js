@@ -5,6 +5,8 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Clientes from './pages/Clientes';
 import Pagos from './pages/Pagos';
+import RegistrarPago from './pages/RegistrarPago';
+import Notificaciones from './pages/Notificaciones';
 import './styles.css';
 
 function PrivateRoute({ children }) {
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path="/clientes" element={<PrivateRoute><Clientes /></PrivateRoute>} />
           <Route path="/pagos" element={<PrivateRoute><Pagos /></PrivateRoute>} />
+          <Route path="/registrar-pago" element={<PrivateRoute><RegistrarPago /></PrivateRoute>} />
+          <Route path="/notificaciones" element={<PrivateRoute><Notificaciones /></PrivateRoute>} />
           <Route path="*" element={<Navigate to="/dashboard" />} />
         </Routes>
       </BrowserRouter>

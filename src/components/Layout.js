@@ -5,7 +5,9 @@ import './Layout.css';
 const nav = [
   { to: '/dashboard', icon: '◈', label: 'Dashboard' },
   { to: '/clientes', icon: '◉', label: 'Clientes' },
-  { to: '/pagos', icon: '◆', label: 'Pagos' },
+  { to: '/registrar-pago', icon: '◆', label: 'Registrar pago' },
+  { to: '/notificaciones', icon: '🔔', label: 'Notificaciones' },
+  { to: '/pagos', icon: '▤', label: 'Historial pagos' },
 ];
 
 export default function Layout({ children }) {
@@ -24,7 +26,7 @@ export default function Layout({ children }) {
           <span className="logo-icon">M</span>
           <div>
             <div className="logo-name">MACRO</div>
-            <div className="logo-sub">Panel Admin</div>
+            <div className="logo-sub">· Cobros</div>
           </div>
         </div>
 
