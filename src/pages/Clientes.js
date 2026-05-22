@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { clientes as clientesApi } from '../services/api';
 import './Clientes.css';
 
-const SERVICIOS = ['', 'Internet', 'Cámaras', 'Soporte TI', 'VoIP', 'Cloud', 'Otro'];
+const SERVICIOS = ['', 'Internet', 'Cámaras', 'Soporte Técnico', 'Tienda', 'Otros'];
 
 function ModalCliente({ cliente, onClose, onSave }) {
   const [form, setForm] = useState(cliente || {
