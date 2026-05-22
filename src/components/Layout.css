@@ -28,8 +28,8 @@
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--accent);
-  color: #000;
+  background: #ff6b00;
+  color: #fff;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -78,8 +78,8 @@
 }
 
 .nav-item.active {
-  background: rgba(0, 229, 255, 0.1);
-  color: var(--accent);
+  background: rgba(255, 107, 0, 0.15);
+  color: #ff6b00;
 }
 
 .nav-icon {
