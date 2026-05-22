@@ -78,8 +78,8 @@
 }
 
 .nav-item.active {
-  background: rgba(0, 229, 255, 0.1);
-  color: var(--accent);
+  background: rgba(255, 107, 0, 0.15);
+  color: #ff6b00;
 }
 
 .nav-icon {
